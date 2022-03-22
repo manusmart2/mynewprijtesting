@@ -36,6 +36,7 @@ public class Testjava {
 			
 		logger.info("********url is opened************");
 			Loginpage lp = new Loginpage(driver);
+			logger.info("********url is opened1************");
 			lp.setUserName(username);
 			logger.info("**********ENTERED USER NAME************");
 			lp.setPassword(password);
